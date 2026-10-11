@@ -1,0 +1,35 @@
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices
+$ git config --global user.name "Raphael_Rouault"
+
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices
+$ git config --global user.email "rouault.raphael7444@gmail.com"
+
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices
+$ git init
+Initialized empty Git repository in C:/Rouault/Exercices/.git/
+
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices (master)
+$ git add .
+
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices (master)
+$ git commit -m "first commit"
+[master (root-commit) 806771e] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Test.txt
+
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices (master)
+$ git branch -M main
+
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices (main)
+$ git remote add origin https://github.com/JeanJeanJeanJeanJean1/Analyse_de_donnes_Raphael_Rouault.git
+
+Etudiants-301@FLP-GEO-301-04 MINGW64 /c/Rouault/Exercices (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 216 bytes | 216.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/JeanJeanJeanJeanJean1/Analyse_de_donnes_Raphael_Rouault.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
